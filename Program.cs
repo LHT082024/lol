@@ -31,6 +31,11 @@ class Program
             756
         };
 
+        foreach (var spooky in numbers)
+        {
+            Console.WriteLine(spooky);
+        }
+
         //A dictonary seems to be able to take two Datatypes at the same time after each ohter. 
         //Both of the types can be the same like example 1 or they can be of two different types like example 2
 
