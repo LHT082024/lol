@@ -15,9 +15,9 @@ class Program
         phantom.Add(1);
         phantom.Add(2.2);
 
-        for (int i = 0; i < phantom.Count; i++)
+        foreach (var spook in phantom)
         {
-            Console.WriteLine(phantom[i]);
+            Console.WriteLine(spook);
         }
 
         //difference between a list and an arraylist is in a list you need to define its variable type 
@@ -30,6 +30,32 @@ class Program
             629,
             756
         };
+
+        //A dictonary seems to be able to take two Datatypes at the same time after each ohter. 
+        //Both of the types can be the same like example 1 or they can be of two different types like example 2
+
+        //example 1
+        Dictionary<string, string> theBooks = new Dictionary<string, string>
+        {
+            {"book one","Twilight"},
+            {"book two", "New Moon"},
+            {"book three", "Eclipse"},
+            {"book four", "Breaking Dawn"}
+        };
+
+        //example 2
+        Dictionary<string, int> PageCount = new Dictionary<string, int>
+        {
+            {"Twilight", 489},
+            { "New Moon", 563},
+            {"Eclipse", 629},
+            {"Breaking Dawn", 756}
+        };
+
+
+
+
+
 
 
 
