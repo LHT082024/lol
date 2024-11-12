@@ -48,6 +48,11 @@ class Program
             {"book four", "Breaking Dawn"}
         };
 
+        foreach (var spooky in theBooks)
+        {
+            Console.WriteLine(spooky);
+        }
+
         //example 2
         Dictionary<string, int> PageCount = new Dictionary<string, int>
         {
@@ -56,6 +61,11 @@ class Program
             {"Eclipse", 629},
             {"Breaking Dawn", 756}
         };
+
+        foreach (var spooky in PageCount)
+        {
+            Console.WriteLine(spooky);
+        }
 
 
 
