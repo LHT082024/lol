@@ -1,0 +1,13 @@
+det er mange forskjellige liste typer som kan bli brukt til forskjellige 
+ting utifra hva du trenger. 
+
+man kan ikke definere en variabel på feks linje 23 i main. men prøve
+å skrive den ut i linje 2 fordi c# leser programmet nedovver og vet derfor
+ikke om variablen du prøver å printe ut for den har ikke lest den ennå.
+
+
+ifølge det jeg så via debuggeren så virker det som i arralysit typen så teller den hvor mange
+elementer som er i listen samtidig som den plukker opp verdiene til de elmentne en etter en.
+
+i foreach loopen til arralysit så ser det ut som at den steg for steg gir spook objektet verdien
+til hvert objekt i listen før programmet fortsetter videre 

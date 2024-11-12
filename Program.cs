@@ -8,6 +8,7 @@ class Program
     static void Main(string[] args)
     {
 
+
         //en arrayList er en type liste som hvor man kan printe ut forskjellige type variabler.
         //som med de fleste lister så må man bruke en loop for å printe den ut.
         ArrayList phantom = new ArrayList();
@@ -66,6 +67,8 @@ class Program
         {
             Console.WriteLine(spooky);
         }
+
+        string sparky = "Vampires are like so hot my gawd uwu";
 
 
 
